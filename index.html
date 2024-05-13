@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" translate="yes">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply for Developer Job">
+    <meta name="keywords" content="developer, job, application">
+    <meta name="author" content="Juan Carlos Pereyra de Leon">
+
+    <title>IT Application</title>
+     <!-- Favicon -->
+     <link rel="icon" type="image/png" href="profil4.jpg">
+
+    <!-- Link to  main CSS file -->
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+      <!-- SVG for the loading animation -->
+    <h1>Juan Carlos Pereyra de Leon</h1>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Infos</div>
+            <ul class="nav-links">
+                <li><a href="#main" class="nav-link">Profile</a></li>
+                <li><a href="#about" class="nav-link">CV</a></li>
+                <li><a href="#portfolio" class="nav-link">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Content goes here -->
+    <div class="content">
+        <!--Profile Informations-->
+        <section class="main-section" id="main">
+            <h1 class="main-heading">Profile</h1>
+            <span class="image" id="bild"><img class="profile" alt="ProfilBild" src="profil4.jpg"/></span>
+            <p class="applicant-description">As an enthusiastic and dedicated individual with a passion for software development, I am actively seeking new opportunities to apply my skills and contribute to innovative projects. With a strong foundation in programming languages such as Html,Css,JavaScript,Java,C++,C# and python.<br> Along with hands-on experience in Desktop Applications,Mobile Application and Websites, I am confident in my ability to excel in a developer role. I am eager to bring my creativity, problem-solving abilities, and collaborative spirit to a dynamic team environment. I look forward to exploring new career opportunities and making a meaningful impact in the field of technology.<br>
+                <signature>Pereyra</signature></p>
+        </section>
+        <!--CV Section-->
+        <section class="about-section" id="about">
+            <h1 class="section-heading" translate="no"><img width="100" height="100" alt="" src="./coding.png"/>$Whoami</h1>
+            <span class="profil"><img alt="" src="./profil4.jpg"/></span><br>
+            <div id="cv-container" class="cv-container">
+                <div class="nametitle">Juan Carlos Pereyra de Leon</div>
+                <div id="personal-info" class="section">
+                    <h2 id="personal-info-title" class="section-title">Personal Information</h2>
+                    <div class="subsection">
+                        <p translate="no">Name: Juan Carlos Pereyra de Leon</p>
+                        <p>Email: jpereyradeleon@gmail.com</p>
+                        <p>Phone: +49 17659701492</p>
+                   <img class="land" alt="Dominikanische Republik" src="./backgrounds/dominican-republic.png"/>
+                    </div>
+                </div>
+                
+                <div id="education" class="section">
+                    <h2 id="education-title" class="section-title">Education</h2>
+                    <div class="subsection">
+                        <p style="color: red" translate="no">IGS Stöcken</p>
+                        <p>Degree: Erweiteter Realabschluss</p>
+                        <p>Year: 2012-2019</p>
+                    </div>
+                    <div class="subsection">
+                        <p style="color: red" translate="no">IGS Garbsen/ IGS Büssingweg</p>
+                        <p>Degree: none</p>
+                        <p>Year: 2019-2020/ 2020-2021</p>
+                    </div>
+                </div>
+                
+                <div id="experience" class="section">
+                    <h2 id="experience-title" class="section-title">Work Experience</h2>
+                    <div class="subsection">
+                        <p>Position: Patient Care</p>
+                        <p translate="no">Company: Procare Nord GmbH</p>
+                        <p>Duration: 2021-2022</p>
+                    </div><br>
+                    <div class="subsection">
+                        <p>Position: Cleaner</p>
+                        <p translate="no">Company: GFG Garbsen GmbH</p>
+                        <p>Duration: 2017-2023</p>
+                    </div><br>
+                    <div class="subsection">
+                        <p>Position: Zeit Arbeit</p>
+                        <p translate="no">Company: AlphaConsult GmbH</p>
+                        <p>Duration: 10.11.2022-08.02.2023</p>
+                    </div><br>
+                    <div class="subsection">
+                        <p>Position: Service</p>
+                        <p translate="no">Company: ALL-Accor Live Limitless</p>
+                        <p>Duration: 01.03.2023-2024</p>
+                    </div>
+                </div>
+            </div>
+            <!--Skills-->
+            <div class="skillcard" translate="no">
+                <h2 class="skiller1">My Skills</h2>
+                <ul>
+                     <li class="tag_name">Programming</li>
+                    <li class="tag_name">Project Management</li>
+                    <li class="tag_name">UI/UX Design</li>
+                    <li class="tag_name">Sales</li>
+                    <li class="tag_name">Sport</li>
+                    <li class="tag_name">Team Leading</li>
+                </ul>
+            </div>
+            <!--Languages-->
+            <div class="languages">
+                <h2 class="langTitle">Languages<img alt="" width="50" height="50" src="./backgrounds/cooperation-1301790_640.png"/></h2>
+                <table class="speakinfo">
+                    <thead>
+                        <button class="german" onclick="langInfos('german')"><img alt="" src="./backgrounds/german.png" widt="20" height="20"/>German</button>
+                        <button class="english" onclick="langInfos('english')"> <img alt="" src="./backgrounds/english.png" widt="20" height="20"/>English</button>
+                        <button class="spanish" onclick="langInfos('spanish')"> <img alt="" src="./backgrounds/spanish.png" widt="20" height="20"/>Spanish</button>
+                    </thead>
+                    <tbody id="map" class="mapper">
+                        <tr>
+                            <span class="countryIndicator"><img id="country" alt="" src="./backgrounds/galaxy-2150186_640.png"/></span>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <!--Computer skills-->
+            <div class="programing" id="programs">
+                <h2>Computer Skills</h2>
+                <!--Programming Languages-->
+                <ul class="programming-language" translate="no">
+
+                    <li class="java"><img alt="" src="./icons/javaicon.png" width="30" height="30"/>Java</li>
+                    <li class="cpp"><img alt="" src="./icons/cpp.png" width="30" height="30"/>C++</li>
+                    <li class="cSharp"><img alt="" src="./icons/csharp.png" width="30" height="30"/>C#</li>
+                    <li class="snake"><img alt="" src="./icons/pythonicon.png" width="30" height="30"/>Python</li>
+                    <li class="javaScript"><img alt="" src="./icons/java-script.png" width="30" height="30"/>JavaScript</li>
+                    <li class="html"><img alt="" src="./icons/html-5.png" width="30" height="30"/>HTML</li>
+                    <li class="css"><img alt="" src="./icons/social.png" width="30" height="30"/>CSS</li>
+                    <li class="sql"><img alt="" src="./icons/sql-injection.png" width="30" height="30"/>SQL</li>
+                </ul>
+                <!--Further Programming View-->
+                <ol class="frameworks" id="apis">
+                    <li class="frameworks-navigation" translate="no"><div class="framer">
+                        <span class="framer-title">Frameworks</span>
+                        <table class="framer-linker">
+                            <thead class="framer-linker-head" style="font-size: 15px; color: antiquewhite;">USE</thead>
+                            <tbody class="dicer" id="dicer">
+                                <ul class="java-frameworks framework-list">
+                                    <li class="Spring-Framework framework-name">Spring Framework</li>
+                                    <li class="JavaServer-Faces-JSF framework-name">JavaServer Faces (JSF)</li>
+                                    <li class="Apache-Wicket framework-name">Apache Wicket</li>
+                                    <li class="Gluon framework-name">Gluon</li>
+                                </ul>
+                                  
+                                  <ul class="python-frameworks framework-list">
+                                    <li class="Django framework-name">Django</li>
+                                    <li class="Flask framework-name">Flask</li>
+                                    <li class="FastAPI framework-name">FastAPI</li>
+                                  </ul>
+                                  
+                                  <ul class="javascript-frameworks framework-list">
+                                    <li class="React.js framework-name">React.js</li>
+                                    <li class="AngularJS framework-name">AngularJS</li>
+                                    <li class="Vue.js framework-name">Vue.js</li>
+                                    <li class="Node.js framework-name">Node.js</li>
+                                  </ul>
+                                  
+                                  <ul class="css-frameworks framework-list">
+                                    <li class="Bootstrap framework-name">Bootstrap</li>
+                                    <li class="Tailwind-CSS framework-name">Tailwind CSS</li>
+                                  </ul>
+                                  
+                            </tbody>
+                        </table>
+                    </div></li>
+                    <ul class="apis">APIS
+                        <li><img alt="" width="60" height="60" src="./backgrounds/rapid.webp" role="link" href="https://rapidapi.com/hub" onclick="window.location='https://rapidapi.com/hub'"></li>
+                        <li><img alt="" width="60" height="60"  src="./icons/google.png" role="link" href="https://cloud.google.com/" onclick="window.location='https://cloud.google.com/'"></li>
+                    </ul>
+                    <ul class="cloudbase">
+                        Cloud Build
+                        <li>Google Cloud Build API</li>
+                        <li>AWS CodeBuild</li>
+                        <li>Azure DevOps Services</li>
+                        <li>Github</li>
+                    </ul>
+                </ol>
+                <!--Online Classes During learn Process-->
+                <div class="teach"><span>Online Classes</span>
+                    <img class="w3School" alt="w3School" src="./icons/w3schools.png"/><br>                  <h3>Youtube</h3>
+                      <!--Bro Code-->
+                      <iframe class="bro" width="200" height="150" src="https://www.youtube.com/embed/xk4_1vDrzzo" title="Java Full Course for free ☕" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                      <iframe class="bro" width="200" height="180" src="https://www.youtube.com/embed/wX75Z-4MEoM" title="you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!--AutoMotive Skills programming Circuits and Creating new Tech-->
+                <div class="autotive" translate="no">
+                    <span class="arduino">
+                        <ul>
+                            <li><img alt="Arduino" src="./icons/arduino.webp"/>
+                            </li>
+                            <li>
+                                <img alt="Arduino" src="./icons/rasbery.png"/>
+                            </li>
+                        </ul>
+                    </span>
+                    <span class="rasberry pi">
+                        <ul>
+                            <li translate="no">C++</li>
+                            <li translate="no">MicroPython</li>
+                            <li translate="no">Java</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <!--Cyber Security-->
+            <div class="maso">Cybersecurity
+                <ul translate="no">
+                    <li style="font-size: 26px; color: black;"><img src="./icons/shell.png" alt="Bash"> Bash Shell</li>
+                    <li style="font-size: 26px; color: black;"><img src="./icons/pinguin.png" alt="Linux"> Linux</li>
+                </ul>
+                <ul translate="yes" class="infos2">
+                    <li>Strong grasp of cybersecurity principles.</li>
+                    <li>Bash shell scripting expertise.</li>
+                    <li>Proficiency in Linux administration.</li>
+                    <li>Effective use of cybersecurity tools.</li>
+                    <li>Analytical skills for security analysis.</li>
+                    <li>Understanding of network security.</li>
+                </ul>
+                <!--Books i Readed To Learn all That-->
+                <div class="books">
+                    <h1>Books</h1>
+                    <div class="scrollview">
+                        <div class="book">
+                            <img src="./books/buch0.png" alt="Book 1">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch1.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch2.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch3.png" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch4.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch5.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch6.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch7.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch8.png" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/buch9.png" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/cpp.webp" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="book">
+                            <img src="./books/csharp.jpg" alt="Book 2">
+                            <div>
+                                <button class="buy-button" onclick="window.open('https://www.hugendubel.de/de/?adCode=232Q40W00O22Q&msclkid=01b9680fc0a31d46b75e0e4e4ad28095&utm_source=bing&utm_medium=cpc&utm_campaign=01_Brand_Hugendubel_Exact&utm_term=hugendubel&utm_content=Hugendubel%20exact', '_blank')">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Hobbies i have for my own-->
+        <section class="hobbys" id="portfolio">
+            <h2 class="section-heading">Hobbies</h2>
+            <ul class="hobyList">
+                <li><img alt="" src="./icons/sport.webp"/> </li>
+                <li><img alt="" src="./icons/coding.webp"/> </li>
+                <li><img alt="" src="./icons/cooking.webp"/> </li>
+            </ul>
+        </section>
+        <!--My Contact Infos-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-heading">Contact</h2>
+             <div class="contact-card">
+                <h3>Juan Carlos Pereyra de Leon</h3>
+                <img class="contact-Profil" alt="Profil" src="./profil4.jpg"/>
+                <i>self-taught developer</i>
+                <ul>
+                    <li><a href="mailto:jpereyrade@gmail.com">Email: jpereyradeleon@gmail.com</a></li><br>
+                    <li>Phone: +49 17659701492</li><br>
+                    <li>Address: Alte Ziegelei 39, 30419 Hannover, Germany</li>
+                </ul>
+             </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
